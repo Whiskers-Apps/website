@@ -1,7 +1,18 @@
 {
-	"/": [],
-	"/privacy-policies": [],
-	"/privacy-policies/claw-launcher": [],
-	"/projects": [],
-	"/team": []
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/privacy-policies": [
+		"src/routes/+layout.js"
+	],
+	"/privacy-policies/claw-launcher": [
+		"src/routes/+layout.js"
+	],
+	"/projects": [
+		"src/routes/+layout.js"
+	],
+	"/team": [
+		"src/routes/+layout.js"
+	]
 }

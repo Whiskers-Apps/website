@@ -71,6 +71,7 @@ declare module '$env/static/private' {
 	export const npm_config_version_git_tag: string;
 	export const LANG: string;
 	export const LC_PAPER: string;
+	export const npm_package_dependencies__sveltejs_adapter_static: string;
 	export const npm_package_devDependencies_typescript: string;
 	export const _JAVA_AWT_WM_NONREPARENTING: string;
 	export const XDG_CURRENT_DESKTOP: string;
@@ -113,6 +114,7 @@ declare module '$env/static/private' {
 	export const npm_config_version_git_sign: string;
 	export const NVM_CD_FLAGS: string;
 	export const MOZ_ENABLE_WAYLAND: string;
+	export const npm_package_scripts_deploy: string;
 	export const npm_config_version_git_message: string;
 	export const npm_package_devDependencies_eslint: string;
 	export const LC_TELEPHONE: string;
@@ -233,6 +235,7 @@ declare module '$env/dynamic/private' {
 		npm_config_version_git_tag: string;
 		LANG: string;
 		LC_PAPER: string;
+		npm_package_dependencies__sveltejs_adapter_static: string;
 		npm_package_devDependencies_typescript: string;
 		_JAVA_AWT_WM_NONREPARENTING: string;
 		XDG_CURRENT_DESKTOP: string;
@@ -275,6 +278,7 @@ declare module '$env/dynamic/private' {
 		npm_config_version_git_sign: string;
 		NVM_CD_FLAGS: string;
 		MOZ_ENABLE_WAYLAND: string;
+		npm_package_scripts_deploy: string;
 		npm_config_version_git_message: string;
 		npm_package_devDependencies_eslint: string;
 		LC_TELEPHONE: string;

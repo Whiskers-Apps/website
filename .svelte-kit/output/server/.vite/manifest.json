@@ -64,6 +64,12 @@
     "file": "_app/immutable/assets/lighttigerxiv.BMKRU4u0.jpg",
     "src": "src/lib/images/lighttigerxiv.jpg"
   },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "name": "entries/pages/_layout",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
     "name": "entries/pages/_layout.svelte",
@@ -73,7 +79,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.RF-nF6dm.css"
+      "_app/immutable/assets/_layout.ye5twLYB.css"
     ]
   },
   "src/routes/+page.svelte": {
