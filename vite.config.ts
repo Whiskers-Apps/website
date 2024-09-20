@@ -3,6 +3,5 @@ import { defineConfig } from 'vite';
 import svg from '@poppanator/sveltekit-svg'
 
 export default defineConfig({
-	base: "/website/",
 	plugins: [sveltekit(), svg()]
 });
