@@ -3,5 +3,5 @@ export function openLink(url: string) {
 }
 
 export function goToRoute(route: string) {
-  window.location.replace(route);
+  window.location.assign(route);
 }
