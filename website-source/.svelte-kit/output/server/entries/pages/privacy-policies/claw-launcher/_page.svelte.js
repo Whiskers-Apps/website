@@ -1,5 +1,6 @@
 import { c as create_ssr_component, v as validate_component } from "../../../../chunks/ssr.js";
 import { M as MainFrame } from "../../../../chunks/MainFrame.js";
+import "../../../../chunks/client.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(MainFrame, "MainFrame").$$render($$result, {}, {}, {
     default: () => {

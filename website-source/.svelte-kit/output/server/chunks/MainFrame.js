@@ -1,5 +1,6 @@
 import { c as create_ssr_component, f as spread, g as escape_object, b as subscribe, h as add_attribute, v as validate_component } from "./ssr.js";
 import { p as page } from "./stores.js";
+import "./client.js";
 const Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<svg${spread(
     [

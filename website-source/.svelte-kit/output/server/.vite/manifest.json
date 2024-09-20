@@ -13,7 +13,15 @@
     "name": "MainFrame",
     "imports": [
       "_ssr.js",
-      "_stores.js"
+      "_stores.js",
+      "_client.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
     ]
   },
   "_exports.js": {
@@ -36,7 +44,7 @@
     "name": "stores",
     "imports": [
       "_ssr.js",
-      "_exports.js"
+      "_client.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
@@ -89,7 +97,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_MainFrame.js"
+      "_MainFrame.js",
+      "_client.js"
     ]
   },
   "src/routes/privacy-policies/+page.svelte": {
@@ -98,7 +107,8 @@
     "src": "src/routes/privacy-policies/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_client.js"
     ]
   },
   "src/routes/privacy-policies/claw-launcher/+page.svelte": {
@@ -108,7 +118,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_MainFrame.js"
+      "_MainFrame.js",
+      "_client.js"
     ]
   },
   "src/routes/projects/+page.svelte": {
@@ -118,7 +129,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_MainFrame.js"
+      "_MainFrame.js",
+      "_client.js"
     ]
   },
   "src/routes/team/+page.svelte": {
@@ -128,7 +140,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_MainFrame.js"
+      "_MainFrame.js",
+      "_client.js"
     ],
     "assets": [
       "_app/immutable/assets/lighttigerxiv.BMKRU4u0.jpg"

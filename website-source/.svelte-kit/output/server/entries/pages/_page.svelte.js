@@ -1,5 +1,6 @@
 import { c as create_ssr_component, d as createEventDispatcher, e as escape, f as spread, g as escape_object, v as validate_component } from "../../chunks/ssr.js";
 import { M as MainFrame, P as Package, a as People } from "../../chunks/MainFrame.js";
+import "../../chunks/client.js";
 const HomeButton = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { text } = $$props;
   createEventDispatcher();

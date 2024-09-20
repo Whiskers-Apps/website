@@ -1,5 +1,6 @@
 import { c as create_ssr_component, f as spread, g as escape_object, v as validate_component, h as add_attribute, i as each, e as escape } from "../../../chunks/ssr.js";
 import { M as MainFrame } from "../../../chunks/MainFrame.js";
+import "../../../chunks/client.js";
 const Search = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<svg${spread(
     [
