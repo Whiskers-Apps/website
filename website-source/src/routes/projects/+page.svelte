@@ -80,7 +80,7 @@
             class="flex bg-neutral-six p-2 pl-4 pr-4 items-center mt-2 rounded-full"
             on:click={(event) => {
               event.stopPropagation();
-              goToRoute("/privacy-policies/claw-launcher");
+              goToRoute("/website/privacy-policies/claw-launcher");
             }}
           >
             <GlassesIcon class="w-6 h-6 mr-2" />
