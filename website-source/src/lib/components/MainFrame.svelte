@@ -28,14 +28,14 @@
     </button>
     <button
       class={`flex w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/projects")}`}
-      on:click={() => goToRoute("/projects")}
+      on:click={() => goToRoute("projects")}
     >
       <PackageIcon class="h-6 w-6" />
       <div class="ml-4">Projects</div>
     </button>
     <button
       class={`flex w-full p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/team")}`}
-      on:click={() => goToRoute("/team")}
+      on:click={() => goToRoute("team")}
     >
       <TeamIcon class="h-6 w-6" />
       <div class="ml-4">Team</div>
@@ -66,14 +66,14 @@
     </button>
     <button
       class={`flex flex-col items-center w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/projects")}`}
-      on:click={() => goToRoute("/projects")}
+      on:click={() => goToRoute("projects")}
     >
       <PackageIcon class="h-6 w-6" />
       <div >Projects</div>
     </button>
     <button
       class={`flex flex-col items-center w-full p-3  rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/team")}`}
-      on:click={() => goToRoute("/team")}
+      on:click={() => goToRoute("team")}
     >
       <TeamIcon class="h-6 w-6" />
       <div class="text-xs">Team</div>
