@@ -7,7 +7,7 @@
   <button
     class="text-banana text-lg hover:underline w-fit"
     on:click={() => {
-      goToRoute("/projects");
+      goToRoute("/website/projects");
     }}>Back</button
   >
   <div class="flex flex-col justify-center items-center">
