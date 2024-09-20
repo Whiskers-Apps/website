@@ -9,7 +9,7 @@
   let currentTab = $page.url.pathname;
 
   function getActiveTabClasses(tab: string): string {
-    if(currentTab.startsWith("/privacy-policies") && tab === "/projects"){
+    if(currentTab.startsWith("/website/privacy-policies") && tab === "/website/projects"){
       return "bg-neutral-two";
     }
     if (currentTab != tab) return "";
@@ -20,21 +20,21 @@
 <div class=" w-full bg-neutral-four h-screen overflow-auto text-text p-4 md:flex hidden">
   <div class="w-[200px] min-w-[200px] space-y-2 flex flex-col pb-4">
     <button
-      class={`flex w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/")}`}
+      class={`flex w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website")}`}
       on:click={() => goToRoute("/website/")}
     >
       <HomeIcon class="h-6 w-6" />
       <div class="ml-4">Home</div>
     </button>
     <button
-      class={`flex w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/projects")}`}
+      class={`flex w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website/projects")}`}
       on:click={() => goToRoute("/website/projects")}
     >
       <PackageIcon class="h-6 w-6" />
       <div class="ml-4">Projects</div>
     </button>
     <button
-      class={`flex w-full p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/team")}`}
+      class={`flex w-full p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website/team")}`}
       on:click={() => goToRoute("/website/team")}
     >
       <TeamIcon class="h-6 w-6" />
@@ -58,21 +58,21 @@
   </div>
   <div class="flex bg-neutral-four p-2">
     <button
-      class={`flex flex-col items-center w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/")}`}
+      class={`flex flex-col items-center w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website")}`}
       on:click={() => goToRoute("/website/")}
     >
       <HomeIcon class="h-6 w-6" />
       <div class="text-xs">Home</div>
     </button>
     <button
-      class={`flex flex-col items-center w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/projects")}`}
+      class={`flex flex-col items-center w-full  p-3 pr-4 pl-4 rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website/projects")}`}
       on:click={() => goToRoute("/website/projects")}
     >
       <PackageIcon class="h-6 w-6" />
       <div >Projects</div>
     </button>
     <button
-      class={`flex flex-col items-center w-full p-3  rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/team")}`}
+      class={`flex flex-col items-center w-full p-3  rounded-xl font-medium hover:bg-neutral-two ${getActiveTabClasses("/website/team")}`}
       on:click={() => goToRoute("/website/team")}
     >
       <TeamIcon class="h-6 w-6" />
