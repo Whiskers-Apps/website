@@ -16,10 +16,10 @@
       kinds of things ^-^
     </p>
     <div class="mt-4 gap-4 grid grid-cols-2 md:grid-cols-3 w-fit">
-      <HomeButton text="Projects" on:click={() => goToRoute("/projects")}>
+      <HomeButton text="Projects" on:click={() => goToRoute("/website/projects")}>
         <PackageIcon class="h-5 w-5" />
       </HomeButton>
-      <HomeButton text="Team" on:click={() => goToRoute("/team")}>
+      <HomeButton text="Team" on:click={() => goToRoute("/website/team")}>
         <PeopleIcon class="h-5 w-5" />
       </HomeButton>
       <HomeButton text="GitHub" on:click={() => openLink("https://github.com/Whiskers-Apps")}>
